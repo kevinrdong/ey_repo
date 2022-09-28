@@ -3,21 +3,21 @@
     <div class="inn">
       <h1 class="p1">There is no one</h1>
       <h2 class="p2">who loves pain</h2>
-      <!-- <img src="../pic/白色海浪.png" alt="" class="back" /> -->
-      <img src="../pic/form.png" alt="" class="btn_form" />
+      <!-- <img src="./assets/白色海浪.png" alt="" class="back" /> -->
+      <img src="./assets/form.png" alt="" class="btn_form" />
       <div class="info">
         <div class="title">
-          <img src="../pic/cactus.png" alt="" />
+          <img src="./assets/cactus.png" alt="" />
           <p class="pt1p">paragraph</p>
-          <img src="../pic/cactus.png" alt="" />
+          <img src="./assets/cactus.png" alt="" />
         </div>
         <ol>
           <li>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</li>
         </ol>
         <div class="title">
-          <img src="../pic/cactus.png" alt="" />
+          <img src="./assets/cactus.png" alt="" />
           <p class="pt1p">paragraph</p>
-          <img src="../pic/cactus.png" alt="" />
+          <img src="./assets/cactus.png" alt="" />
         </div>
         <ol>
           <li>
@@ -35,13 +35,13 @@
       </div>
     </div>
     <div class="waves">
-      <img src="../pic/海浪.png" alt="" class="wave" />
-      <img src="../pic/海浪.png" alt="" class="wave" />
-      <img src="../pic/海浪.png" alt="" class="wave" />
+      <img src="./assets/海浪.png" alt="" class="wave" />
+      <img src="./assets/海浪.png" alt="" class="wave" />
+      <img src="./assets/海浪.png" alt="" class="wave" />
     </div>
     <div class="part2">
       <div class="inn2">
-        <img src="../pic/Frame18.png" alt="" class="Frame18" />
+        <img src="./assets/Frame18.png" alt="" class="Frame18" />
         <div class="form">
           <div class="sub">
             <label name="store">store</label>
@@ -119,9 +119,9 @@
         </div>
         <div class="submit" @click="submitted">
           <div class="submit-img">
-            <img src="../pic/submit.png" v-if="!ifSubmit">
-            <img src="../pic/Text.png" v-if="susses">
-            <img src="../pic/TextF.png" v-if="showF">
+            <img src="./assets/submit.png" v-if="!ifSubmit">
+            <img src="./assets/Text.png" v-if="susses">
+            <img src="./assets/TextF.png" v-if="showF">
 
           </div>
         </div>
@@ -148,22 +148,22 @@
           <div class="line line2"></div>
         </div>
         <div class="light">
-          <img src="../pic/lighthouse.png" alt="" class="lighthouse" />
+          <img src="./assets/lighthouse.png" alt="" class="lighthouse" />
         </div>
       </div>
     </div>
 
     <div class="inn3">
       <div class="wod">Neque porro quisquam<br />est qui dolorem!</div>
-      <img src="../pic/market.png" alt="" class="market" />
+      <img src="./assets/market.png" alt="" class="market" />
     </div>
   </div>
 </template>
 
 <script>
-import Rectangle from "../pic/Rectangle412.png";
-import certificateA from "../pic/certificateA.png";
-import certificateD from "../pic/certificateD.png";
+import Rectangle from "./assets/Rectangle412.png";
+import certificateA from "./assets/certificateA.png";
+import certificateD from "./assets/certificateD.png";
 
 export default {
   name: "App",
@@ -343,7 +343,7 @@ input[type="number"] {
 }
 
 html {
-  background-image: url("../pic/底色.png");
+  background-image: url("./assets/底色.png");
   position: relative;
   display: flex;
 }
@@ -356,7 +356,7 @@ body {
 }
 
 #app {
-  background-image: url("../pic/白色海浪.png");
+  background-image: url("./assets/白色海浪.png");
   position: relative;
   width: 100%;
   height: 100vh;
