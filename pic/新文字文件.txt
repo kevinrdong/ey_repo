@@ -1,0 +1,58 @@
+/* Button / Primary / LG / Text */
+
+/* Auto layout */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 16px 20px;
+gap: 8px;
+
+width: 200px;
+height: 57px;
+
+/* Primary Color 2 */
+background: #B57556;
+box-shadow: 0px 0px 20px rgba(250, 163, 163, 0.91);
+border-radius: 50px;
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
+/* label */
+
+width: 83px;
+height: 23px;
+
+font-family: 'Noto Sans TC';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 125%;
+/* identical to box height, or 22px */
+letter-spacing: 0.2em;
+
+/* Text Color/white */
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+flex: none;
+order: 0;
+flex-grow: 0;
+
+
+/* icons */
+
+display: none;
+width: 18px;
+height: 18px;
+
+
+/* Inside auto layout */
+flex: none;
+order: 1;
+flex-grow: 0;
